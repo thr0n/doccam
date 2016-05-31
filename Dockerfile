@@ -11,7 +11,3 @@ RUN cd /home/root/dev/occam/kroc-1.6.0/ && ./build --prefix=/usr/local/kroc --wi
 RUN cd /home/root/dev/occam/kroc-1.6.0 && ./configure --prefix=/usr/local/kroc
 RUN cd /home/root/dev/occam/kroc-1.6.0 && make -i
 RUN cd /home/root/dev/occam/kroc-1.6.0 && make -i install
-RUN cd /home/root/dev/occam/kroc-1.6.0 && . /usr/local/kroc/bin/kroc-setup.sh
-
-
-
