@@ -1,3 +1,6 @@
+-- This code snippet has been taken from:
+-- https://github.com/concurrency/kroc/blob/master/demos/complexity/hello.occ  
+
 #INCLUDE "course.module"
 PROC hello (CHAN BYTE out!)
   out.string ("Hello, world!*n", 0, out!)
